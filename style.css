@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+/* CSS Document */
+
+body {
+margin: 0 auto;
+width: 100%;
+font-family: Oswald, sans-serif;
+background-image: url(images/background.jpg);
+
+}
+h1 {
+font-size: 30px;
+color: #fff;
+background-color: #000;
+margin: 0px;
+padding: 5px 5px 5px 35px;
+}
+li {
+list-style-type: none;
+font-weight: 300;
+font-size: 20px;
+text-align: center;
+background-color: #E8AA46;
+width: 200px;
+margin: 10px 50px;
+padding: 5px;
+}
+
+#example-breweries {
+width: 500px;
+margin: 0 auto;
+float: left;
+}
+#example-beers {
+width: 875px;
+margin: 30px 10px;
+float: left;
+}
+#example-beers li {
+list-style-type: none;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+display:block;
+background-color: #E8AA46;
+width: 400px;
+margin: 10px;
+padding: 5px;
+}
+.name{
+float: right;
+}
+.info {
+background-color: #BA8238;
+padding: 5px 0px;
+}
