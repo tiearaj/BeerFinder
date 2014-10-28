@@ -6,6 +6,7 @@
 <script src="beer.js"></script>
 
 <script>
+//Was trying to get response.json file which has all the data, and this code came up in a google search
 function loadXMLDoc()
 {
 var xmlhttp;
@@ -27,16 +28,20 @@ xmlhttp.onreadystatechange=function()
 xmlhttp.open("GET","response.json",true);
 xmlhttp.send();
 }
+
 </script>
 </head>
 
 <body>
 
-<h1>Check out our beers!</h1>
+	<h1>Check out our beers!</h1>
 
-<div id="example-beers">
-<div class="description"></div>
-</div>
+	<div id="example-beers">
+		<div class="description"></div>
+	</div>
+	<div class="clear"></div>
+	<button id="next">Load More</button>
+	
 
 </body>
 </html>
