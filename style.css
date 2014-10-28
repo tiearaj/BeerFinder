@@ -16,15 +16,15 @@ background-color: #000;
 margin: 0px;
 padding: 5px 5px 5px 35px;
 }
-li {
-list-style-type: none;
+.name {
 font-weight: 300;
 font-size: 20px;
 text-align: center;
-background-color: #E8AA46;
-width: 200px;
+background-color: #B37717;
+width: 400px;
 margin: 10px 50px;
 padding: 5px;
+cursor: pointer;
 }
 
 #example-breweries {
@@ -37,21 +37,29 @@ width: 875px;
 margin: 30px 10px;
 float: left;
 }
-#example-beers li {
-list-style-type: none;
-font-weight: 400;
-font-size: 20px;
-text-align: center;
-display:block;
-background-color: #E8AA46;
-width: 400px;
-margin: 10px;
-padding: 5px;
-}
-.name{
-float: right;
-}
+
+
 .info {
-background-color: #BA8238;
-padding: 5px 0px;
+background-color: #DFC397;
+margin: 0px 50px;
+padding: 15px;
+width: 380px;
+font-weight: 300;
+display:none;
+}
+.clear {
+height:0px;
+clear: both;
+}
+button {
+background-color: #DCB67A;
+border: none;
+padding: 5px;
+font-size: 16px;
+margin-left: 400px;
+}
+button:hover {
+background-color: #B37717;
+color:#fff;
+position:relative;
 }
